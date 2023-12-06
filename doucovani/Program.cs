@@ -1,19 +1,16 @@
 ﻿
 
-/*PROMĚNNÁ
+//PROMĚNNÁ
 
 //Místo v paměti PC kam si můžeme ukládat nějaká data(hodnoty výpočty, mezi-výpočtů, slova, znaky, čísla, výrazy, ..)
 
-int - Z
-double - R
-string - texty
-bool - true/false *(Jakákoliv NENULOVÁ hodnota, je vždy TRUE {1, 3, -6}
-char - jednotlivé znaky (UNICODE, ASCII, ..)
+//int - Z
+//double - R
+//string - texty
+//bool - true/false *(Jakákoliv NENULOVÁ hodnota, je vždy TRUE {1, 3, -6})
+//char - jednotlivé znaky (UNICODE, ASCII, ..)
 
-C# = staticky typovaný jazyk
-*/
-
-
+//C# = staticky typovaný jazyk
 
 //int cislo = 15;
 
@@ -21,9 +18,9 @@ C# = staticky typovaný jazyk
 
 //Aritmetika:
 // +, -, *, /, % (modulo)
-// +=, -=, *=, /=, %= | ==> složené přirazené
+// +=, -=, *=, /=, %= | --> složené aritmetické výrazy
 
-//cislo = cislo + 1; //16 ==> ekvivalence => cislo += 1;
+//cislo = cislo + 1; //16 --> ekvivalence -> cislo += 1;
 
 //unární operátory (jsou jen na jedné straně operandu)
 // x++, ++x; inkrementace (+1)
