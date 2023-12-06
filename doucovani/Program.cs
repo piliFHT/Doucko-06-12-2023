@@ -136,27 +136,29 @@ C# = staticky typovaný jazyk
 
 //DALŠÍ PRAKTICKÁ UKÁZKA
 
-while (true)
-{
+//while (true)
+//{
 
-    Console.WriteLine("Zadej číslo v rozsahu od 10-20 nebo 50-60: ");
-    int x = int.Parse(Console.ReadLine());
+//    Console.WriteLine("Zadej číslo v rozsahu od 10-20 nebo 50-60: ");
+//    int x = int.Parse(Console.ReadLine());
 
-    // AND -> &&
-    // OR -> ||
-    // NOT -> !
+//    // AND -> &&
+//    // OR -> ||
+//    // NOT -> !
 
-    if ((x >= 10) && (x <= 20) || ((x >= 50) && (x <= 60)))
-    {
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine("Trefil(a) ses! :)");
-        Console.ForegroundColor = ConsoleColor.White;
-    }
-    else
-    {
-        Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine("Jdi doprdele ty hromado promrdanýho masa!");
-        Console.ForegroundColor = ConsoleColor.White;
-    }
-}
+//    if ((x >= 10) && (x <= 20) || ((x >= 50) && (x <= 60)))
+//    {
+//        Console.ForegroundColor = ConsoleColor.Green;
+//        Console.WriteLine("Trefil(a) ses! :)");
+//        Console.ForegroundColor = ConsoleColor.White;
+//    }
+//    else
+//    {
+//        Console.ForegroundColor = ConsoleColor.Red;
+//        Console.WriteLine("Jdi doprdele ty hromado promrdanýho masa!");
+//        Console.ForegroundColor = ConsoleColor.White;
+//    }
+//}
+
+//---------------------------------------
 
