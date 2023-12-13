@@ -77,7 +77,7 @@
 
 //---------------------------------------------------
 
-//PRAKTICKÁ UKÁZKA
+//        \\PRAKTICKÁ UKÁZKA//
 
 //Console.WriteLine("Zadej nějaké hezké číslo: ");
 //int hezkeCislo = int.Parse(Console.ReadLine());
@@ -105,7 +105,7 @@
 
 //---------------------------------------
 
-//PRAKTICKÁ UKÁZKA
+//        \\PRAKTICKÁ UKÁZKA//
 
 //Console.WriteLine("Zadejte číslo A: ");
 //int a = int.Parse(Console.ReadLine());
@@ -131,7 +131,7 @@
 
 //---------------------------------------
 
-//DALŠÍ PRAKTICKÁ UKÁZKA
+//-------\\DALŠÍ PRAKTICKÁ UKÁZKA//------
 
 //while (true)
 //{
@@ -158,4 +158,70 @@
 //}
 
 //---------------------------------------
+
+//-------\\Jak funguje AND a OR//--------
+
+//  *1 = true | 0 = false
+// | A && B | --> \\AND// --> oba dva musí být true (pravdivý)
+// | 1    1 | --> true
+// | 1    0 | --> false
+// | 0    1 | --> false
+// | 0    0 | --> false
+
+//  ( A || B ) --> \\OR// --> aspoň jeden musí být true (pravdivý)
+//  ( 1 || 1 ) --> true
+//  ( 1 || 0 ) --> true
+//  ( 0 || 1 ) --> true
+//  ( 0 || 0 ) --> false
+
+//---------------------------------------
+
+//----------\\POLE - ARRAYS//------------
+
+// -->KOLEKCE<-- prvků - shluk po sobě jdoucích hodnot, které mají své pořadí
+
+//>> int[] pole = new int[10]; >>> pole s velikostí 10 prvků
+// !!! INDEXY !!!
+
+// Velikost polre = 10 prvků - přístup je pod indexy 0-9 --> velikost pole - 1
+
+//>> pole[5] = 999; >>> na INDEXU 5, je nyní hodnota 999. Všude jinde jsou stále 0
+//>> pole[10] = 69; >>> na INDEX 10, jsme chtěli dát hodnotu, ale INDEX 10 v poli s 10ti prvky, není
+
+
+// -->Zkrácená inicializace pole: 
+//>> int[] zkracenePole = {5,6,7,8,9,10,11,12,21}; --> velikost pole 9
+// Jak zjistit délku pole?  >>> Console.Writeline(zkracenePole.Length);
+
+// --> Vypsat pole <-- 
+//>> for(int i = 0; i < zkracenePole.Length; i++)
+//>> {
+//>>    Console.WriteLine(zkracenePole[i]); --> vypíše hodnotu na daném INDEXU
+//>> }
+
+// --> Setřídit pole <--
+
+//>> Array.Sort(zkracenePole);
+
+//>> for(int i = 0; i < zkracenePole.Length; i++)
+//>> {
+//>>    Console.WriteLine(zkracenePole[i]); --> vypíše hodnotu na daném INDEXU
+//>> }
+
+
+// --> Aritmetický průměr v poli <--
+
+//>> int[] zkracenePole = {5,6,7,8,9,10,11,12,21};
+//>> int soucet = 0;
+
+//>> for(int i = 0; i < zkracenePole.Length; i++)
+//>> {
+//>>    soucet += zkracenePole[i];
+//>> }
+
+//>> Console.WriteLine(soucet/(double)zkracenePole.Length);
+
+//>> double prumer = zkracenePole.Average();
+//>> Console.WriteLine(prumer); --> ten "for" cyklus a tahle fce "Average" udělá aritm. průměr z toho pole
+
 
